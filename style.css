@@ -1,11 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Karla|Quicksand);
+@import url(//fonts.googleapis.com/css?family=Secular+One|Cabin);
 @import url('styles/boots-bones.css');
 /*
-Theme Name: Naked Wordpress
-Theme URI: http://bckmn.com/naked-wordpress
-Author: J Beckman
-Author URI: http://bckmn.com
-Description: A super bare theme for designers who don't know Wordpress PHP but want to build with Wordpress.
+Theme Name: Soest
+Theme URI: https://github.com/kainuk/soest
+Author: Klaas Eikelboom (but used a lot of work from J Beckman)
+Author URI: https://www.kainuk.it
+Description: Based on the naked team, created specialy for WakeZeist
 Version: 1.0
 License: GNU General Public License
 
@@ -322,7 +322,7 @@ select {
   padding: 0;
   margin: 0;
   background: #ffffff;
-  font-family: "Karla", Helvetica, sans-serif;
+  font-family: "Cabin", Helvetica, sans-serif;
   line-height: 26.64px;
   font-size: 18px;
   font-size: 1.8rem;
@@ -337,7 +337,7 @@ h4,
 h5,
 h6 {
   clear: both;
-  font-family: "Quicksand", Helvetica, sans-serif;
+  font-family: "Secular One", Helvetica, sans-serif;
 }
 h1 {
   line-height: 71px;
@@ -503,7 +503,7 @@ header #brand h1 span {
   text-transform: lowercase;
 }
 header nav {
-  font-family: "Quicksand", Helvetica, sans-serif;
+  font-family: "Secular One", Helvetica, sans-serif;
 }
 .menu-main-nav-container, .menu-main-container {
   float: right;
@@ -548,7 +548,7 @@ article .post-meta {
   margin-bottom: 40px;
   font-size: 14px;
   text-align: center;
-  font-family: "Karla", Helvetica, sans-serif;
+  font-family: "Cabin", Helvetica, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -614,7 +614,7 @@ article .meta .post-categories li {
 }
 .next-page a, .past-page a {
   font-size: 2em;
-  font-family: "Quicksand", Helvetica, sans-serif;
+  font-family: "Secular One", Helvetica, sans-serif;
   font-weight: 400;
   font-style: italic;
   padding: 10%;
