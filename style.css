@@ -118,8 +118,6 @@ section {
 html {
   margin: 0;
   padding: 0;
-  font-size: 62.5%;
-  /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
 
   -webkit-text-size-adjust: 100%;
   /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
@@ -323,9 +321,8 @@ select {
   margin: 0;
   background: #ffffff;
   font-family: "Lora", Helvetica, sans-serif;
-  line-height: 26.64px;
-  font-size: 18px;
-  font-size: 1.8rem;
+  line-height: 1.5;
+  font-size: 1.2rem;
 }
 /* typography
 -------------------------------------------------------------- */
@@ -341,24 +338,16 @@ h6 {
   font-weight: bold;
 }
 h1 {
-  line-height: 71px;
-  font-size: 48px;
-  font-size: 4.8rem;
+  font-size: 2.5rem;
 }
 h2 {
-  line-height: 50px;
-  font-size: 34px;
-  font-size: 3.4rem;
+  font-size: 2.0rem;
 }
 h3 {
-  line-height: 41px;
-  font-size: 28px;
-  font-size: 2.8rem;
+  font-size: 1.5rem;
 }
 h4 {
-  line-height: 26px;
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 hr {
   background-color: #ccc;
@@ -728,7 +717,6 @@ html[xmlns] .clearfix {
   /* Those wide screens above 1280px */
   @media only screen and (min-width: 1281px) {
     body{
-      font-size: 2em;
       line-height: 1.5em;
     }
     article .title{
